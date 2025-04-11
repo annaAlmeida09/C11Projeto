@@ -17,4 +17,18 @@ chosen payment methods. The dataset is particularly useful for analyzing pattern
 --> Qual a porcentagem de assinantes seniors que cancelaram o contrato.
 --> Qual serviço de segurança os assinantes preferem. 
 --> Qual a media de tempo que as pessoas tendem a manter o contrato.
-raissa
+
+
+##Sugestões da Raí
+
+--> Qual a porcentagem de clientes que cancelaram  e os que permaneceram,  exibir em um  gráfico de pizza?
+--> Qual é o total de receita gerada pelos clientes que continuam com contrato ativo?Quanto a empresa deixou de arrecadar com os contratos cancelados? E o que esses valores representam em termos percentuais da receita total da empresa?
+--> Entre os clientes que cancelaram, quantos quantos homens e quantas mulheres?
+--> Qual é o ID do cliente com contrato ativo há mais tempo, e qual é o ID do cliente que cancelou o contrato após o maior tempo de fidelidade ?
+--> Qual o tipo de contrato mais comum entre os clientes ativos?
+--> Qual o método de pagamento preferido dos clientes ativos?
+--> Entre os clientes que possuem internet, qual é a média de uso dos serviços adicionais (OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV e StreamingMovies)? A resposta deve ser apresentada em um dicionário, onde a chave é o nome do serviço e o valor é a porcentagem média de clientes que utilizam esse serviço
+--> Entre os clientes que não cancelaram o contrato, qual é o tipo de conexão de internet mais utilizado?Exiba a quantidade de clientes de cada tipo (DSL, Fiber optic, No), em um gráfico de barras.
+--> Liste todos os clientes que utilizam múltiplas linhas telefônicas (MultipleLines == 'Yes') e salve essas informações em um novo arquivo chamado clientesMultiplasLinhas.csv.
+--> Qual é a média mensal paga por todos os clientes que já tiveram contrato com a empresa?
+
