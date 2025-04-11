@@ -8,4 +8,12 @@ chosen payment methods. The dataset is particularly useful for analyzing pattern
 --> Dos que cancelaram, quantos são homens e quantos são mulheres.
 --> Relação entre mulheres que possuem o plano e que não possuem. O mesmo para homens.
 --> Das pessoas ativas, qual conteúdo que elas mais consomem. (*Visando criação de planos)
---> Como todos os clientes preferem realizar o pagamento.
+--> Como todos os clientes ativos preferem realizar o pagamento.
+--> Tipo de plano de internet que os clientes preferem.
+--> Quantos clientes possuem cada plano e quantos possuem plano de internet e telefonia.
+--> Media de valores mensais e total de cobrança.
+--> Qual o tipo de contrato que os contratantes preferem.
+--> Dos que cancelaram, quantas pessoas utilizaram o suporte técnico e qual sua porcentagem.
+--> Qual a porcentagem de assinantes seniors que cancelaram o contrato.
+--> Qual serviço de segurança os assinantes preferem. 
+--> Qual a media de tempo que as pessoas tendem a manter o contrato. 
