@@ -16,5 +16,4 @@ chosen payment methods. The dataset is particularly useful for analyzing pattern
 --> Dos que cancelaram, quantas pessoas utilizaram o suporte técnico e qual sua porcentagem.
 --> Qual a porcentagem de assinantes seniors que cancelaram o contrato.
 --> Qual serviço de segurança os assinantes preferem. 
---> Qual a media de tempo que as pessoas tendem a manter o contrato. 
-anna
+--> Qual a media de tempo que as pessoas tendem a manter o contrato.
