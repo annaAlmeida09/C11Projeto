@@ -17,3 +17,4 @@ chosen payment methods. The dataset is particularly useful for analyzing pattern
 --> Qual a porcentagem de assinantes seniors que cancelaram o contrato.
 --> Qual serviço de segurança os assinantes preferem. 
 --> Qual a media de tempo que as pessoas tendem a manter o contrato.
+raissa 
