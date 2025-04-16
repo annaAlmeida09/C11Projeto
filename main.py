@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 df = pd.read_csv('Telecom Customers Churn.csv')
@@ -45,3 +46,22 @@ plt.title('Receita: Clientes Ativos vs Cancelados')
 plt.ylabel('Receita em R$')
 plt.show()
 print('----------------------------------------------------------------------------------------------')
+
+#3
+generos = cancelaram['gender'].values
+mulher = np.sum(generos == 'Female')
+homem = np.sum(generos == 'Male')
+
+print('Mulheres que cancelaram:', mulher)
+print('Homens que cancelaram:', homem)
+print('----------------------------------------------------------------------------------------------')
+# 4
+top_ativos = permaneceram.nlargest(5, 'tenure')
+print("Top 5 clientes com contrato ativo há mais tempo:")
+print(top_ativos[['customerID', 'tenure']])
+
+print('----------------------------------------------------------------------------------------------')
+# 4
+top_cancelados = cancelaram.nlargest(5, 'tenure')
+print("Top 5 clientes que cancelaram após maior tempo de fidelidade:")
+print(top_cancelados[['customerID', 'tenure']])
