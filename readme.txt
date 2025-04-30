@@ -21,11 +21,11 @@ chosen payment methods. The dataset is particularly useful for analyzing pattern
 
 ##Sugestões da Raí
 
---> Qual a porcentagem de clientes que cancelaram  e os que permaneceram,  exibir em um  gráfico de pizza?
+--> Qual a porcentagem de clientes que cancelaram  e os que permaneceram,  exibir em um  gráfico de pizza? ok
 --> Qual é o total de receita gerada pelos clientes que continuam com contrato ativo?Quanto a empresa deixou de arrecadar com os contratos cancelados? E o que esses valores representam em termos percentuais da receita total da empresa?
---> Entre os clientes que cancelaram, quantos quantos homens e quantas mulheres?
---> Qual é o ID do cliente com contrato ativo há mais tempo, e qual é o ID do cliente que cancelou o contrato após o maior tempo de fidelidade ?
---> Qual o tipo de contrato mais comum entre os clientes ativos?
+--> Entre os clientes que cancelaram, quantos quantos homens e quantas mulheres? ok
+--> Qual é o ID do cliente com contrato ativo há mais tempo, e qual é o ID do cliente que cancelou o contrato após o maior tempo de fidelidade ? ok
+--> Qual o tipo de contrato mais comum entre os clientes ativos? ok
 --> Qual o método de pagamento preferido dos clientes ativos?
 --> Entre os clientes que possuem internet, qual é a média de uso dos serviços adicionais (OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV e StreamingMovies)? A resposta deve ser apresentada em um dicionário, onde a chave é o nome do serviço e o valor é a porcentagem média de clientes que utilizam esse serviço
 --> Entre os clientes que não cancelaram o contrato, qual é o tipo de conexão de internet mais utilizado?Exiba a quantidade de clientes de cada tipo (DSL, Fiber optic, No), em um gráfico de barras.
