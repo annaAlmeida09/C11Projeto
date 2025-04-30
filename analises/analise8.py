@@ -11,6 +11,10 @@ def executar(df):
     fiber = (internet_ativos == 'Fiber optic').sum()
     sem_internet = (internet_ativos == 'No').sum()
 
+    print('Clientes sem internet:', sem_internet, 'clientes.')
+    print('Clientes que usam fibra ótica:', fiber, 'clientes.')
+    print('Clientes que usam DSL:', dsl, 'clientes.')
+
     categorias_internet = ['DSL', 'Fibra Ótica', 'Sem Internet']
     valores = [dsl, fiber, sem_internet]
 
@@ -19,3 +23,4 @@ def executar(df):
     plt.ylabel('Quantidade de clientes')
     plt.xlabel('Tipo de conexão')
     plt.show()
+    print('----------------------------------------------------------------------------------------------')
