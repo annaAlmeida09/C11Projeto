@@ -12,6 +12,6 @@ chosen payment methods. The dataset is particularly useful for analyzing pattern
 #5 Qual o tipo de contrato mais comum entre os clientes ativos? ok
 #6 Qual o método de pagamento preferido dos clientes ativos? ok
 #7 Entre os clientes que possuem internet, qual é a média de uso dos serviços adicionais (OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV e StreamingMovies)? A resposta deve ser apresentada em um dicionário, onde a chave é o nome do serviço e o valor é a porcentagem média de clientes que utilizam esse serviço ok
-#8 Entre os clientes que não cancelaram o contrato, qual é o tipo de conexão de internet mais utilizado?Exiba a quantidade de clientes de cada tipo (DSL, Fiber optic, No), em um gráfico de barras. ok
+#8 Entre os clientes que não cancelaram o contrato, qual é o tipo de conexão de internet mais utilizado? Exiba a quantidade de clientes de cada tipo (DSL, Fiber optic, No), em um gráfico de barras. ok
 #9 Liste todos os clientes que utilizam múltiplas linhas telefônicas (MultipleLines == 'Yes') e salve essas informações em um novo arquivo chamado clientesMultiplasLinhas.csv. ok
 #10 Qual é a média mensal paga por todos os clientes que já tiveram contrato com a empresa? ok

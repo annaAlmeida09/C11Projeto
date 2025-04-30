@@ -16,10 +16,15 @@ def executar(df):
     one_year = df[df['Contract'] == 'One year'].shape[0]
     two_year = df[df['Contract'] == 'Two year'].shape[0]
     
-    
-    plt.pie( x=[month_to_month*100/num_contratos_ativos, one_year*100/num_contratos_ativos, two_year*100/num_contratos_ativos],
-        labels=['Por mês', 'Por ano','Por 2 anos'],
-        autopct='%1.1f%%')
+    cores = ['#FF5733', '#2980B9', '#27AE60']
+
+    plt.pie(
+        x=[month_to_month*100/num_contratos_ativos, one_year*100/num_contratos_ativos, two_year*100/num_contratos_ativos],
+        labels=['Por mês', 'Por ano', 'Por 2 anos'],
+        autopct='%1.1f%%',
+        colors=cores,
+        startangle=90
+    )
     plt.title('Contratos dos clientes ativos')
     plt.axis('equal')   
     plt.show()
