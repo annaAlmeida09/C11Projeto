@@ -30,12 +30,12 @@ print('7 - Porcentagem de uso dos serviços adicionais.')
 print('8 - Quantidade de planos de internet dos clientes ativos.')
 print('9 - Criar um novo dataset baseado em serviços oferecidos pela empresa.')
 print('10 - Média mensal paga por todos os clientes que já tiveram contrato com a empresa.')
-print('11 - Finaliza.')
+print('0 - Finaliza.')
 
 while(True):
     escolha = input("Escolha uma análise (1 a 10): ")
 
-    if escolha == '11':
+    if escolha == '0':
         break
     if escolha in analises:
         nome_modulo = f"analises.{analises[escolha]}"
