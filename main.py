@@ -21,7 +21,7 @@ print('Uma empresa de telecomunicações está com problemas de desligamentos de
 
 print("Menu de Análises:")
 print('1 - Porcentagem de clientes que cancelaram e permaneceram.')
-print('2 - Total de receita gerada pelos clientes que continuam com contrato ativo.')
+print('2 - O impacto financeiro dos cancelamentos em relação à receita total.')
 print('3 - Entre os clientes que cancelaram, quantos homens e quantas mulheres.')
 print('4 - Clientes com contrato ativo há mais tempo e clientes que cancelaram o contrato após o maior tempo de fidelidade.')
 print('5 - Tipo de contrato mais comum entre os clientes ativos.')
