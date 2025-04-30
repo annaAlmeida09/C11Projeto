@@ -15,5 +15,3 @@ chosen payment methods. The dataset is particularly useful for analyzing pattern
 #8 Entre os clientes que não cancelaram o contrato, qual é o tipo de conexão de internet mais utilizado?Exiba a quantidade de clientes de cada tipo (DSL, Fiber optic, No), em um gráfico de barras. ok
 #9 Liste todos os clientes que utilizam múltiplas linhas telefônicas (MultipleLines == 'Yes') e salve essas informações em um novo arquivo chamado clientesMultiplasLinhas.csv. ok
 #10 Qual é a média mensal paga por todos os clientes que já tiveram contrato com a empresa? ok
-
-Obs: para que a questão 9 funcione corretamente é necessário apagar as informações do arquivo clientesMultiplasLinhas.csv
