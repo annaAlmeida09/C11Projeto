@@ -75,6 +75,7 @@ contratos_ativos = permaneceram['Contract'].value_counts()
 mais_comum = contratos_ativos.idxmax()  
 
 print("O tipo de contrato mais comum entre os clientes ativos é: '{}'".format(mais_comum))
+print('----------------------------------------------------------------------------------------------')
 
 #---------------------------------#
 
@@ -88,18 +89,54 @@ credit_card = df[df['PaymentMethod'] == 'Credit card (automatic)'].shape[0]
 plt.pie( x=[eletronic_check, mailed_check, bank_transfer, credit_card],
     labels=['Cheque Eletrônico', 'Cheque Tradicional','Transferência Bancária','Cartão de Crédito'],
     autopct='%1.1f%%')
-plt.title('Métodos de pagamento')
-plt.axis('equal')
+plt.title('Métodos de pagamento dos clientes ativos')
+plt.axis('equal')   
 plt.show()
 
 contratos_ativos_pagamentos = permaneceram['PaymentMethod'].value_counts()
 mais_comum_pagamentos = contratos_ativos_pagamentos.idxmax()  
 print("O tipo de pagamento mais comum entre os clientes ativos é: '{}'".format(mais_comum_pagamentos))
+print('----------------------------------------------------------------------------------------------')
 
-#7 
+#7 Entre os clientes que possuem internet, qual é a média de uso dos serviços adicionais (OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies)? 
+internet_possuem = df[df['InternetService'] != 'No']
+total = len(internet_possuem)
 
-#8
+servicos = {
+    'OnlineSecurity': round(float((internet_possuem['OnlineSecurity'] == 'Yes').mean() * 100), 2),
+    'OnlineBackup': round(float((internet_possuem['OnlineBackup'] == 'Yes').mean() * 100), 2),
+    'DeviceProtection': round(float((internet_possuem['DeviceProtection'] == 'Yes').mean() * 100), 2),
+    'TechSupport': round(float((internet_possuem['TechSupport'] == 'Yes').mean() * 100), 2),
+    'StreamingTV': round(float((internet_possuem['StreamingTV'] == 'Yes').mean() * 100), 2),
+    'StreamingMovies': round(float((internet_possuem['StreamingMovies'] == 'Yes').mean() * 100), 2),
+}
 
-#9
+print('As porcentagens de uso dos serviços adicionais de clientes que possuem internet são:', servicos)
+print('----------------------------------------------------------------------------------------------')
+
+#8 Entre os clientes que não cancelaram o contrato, qual é o tipo de conexão de internet mais utilizado?
+# Exiba a quantidade de clientes de cada tipo (DSL, Fiber optic, No), em um gráfico de barras.
+
+internet_ativos = permaneceram['InternetService']
+dsl = (internet_ativos == 'DSL').sum()
+fiber = (internet_ativos == 'Fiber optic').sum()
+sem_internet = (internet_ativos == 'No').sum()
+
+# Prepara os dados para o gráfico
+categorias_internet = ['DSL', 'Fibra Ótica', 'Sem Internet']
+valores = [dsl, fiber, sem_internet]
+
+# Cria o gráfico de barras
+plt.bar(categorias_internet, valores, color='skyblue')
+plt.title('Tipo de conexão de internet dos clientes ativos')
+plt.ylabel('Quantidade de clientes')
+plt.xlabel('Tipo de conexão')
+plt.show()
+
+#9 Liste todos os clientes que utilizam múltiplas linhas telefônicas (MultipleLines == 'Yes') e salve essas informações em um novo arquivo chamado clientesMultiplasLinhas.csv.
+
+clientes_multiplas_linhas = df[df['MultipleLines'] == 'Yes']
+clientes_multiplas_linhas.to_csv('.\datasets\clientesMultiplasLinhas.csv', index=False)
+print("Arquivo 'clientesMultiplasLinhas.csv' salvo com sucesso!")
 
 #10
