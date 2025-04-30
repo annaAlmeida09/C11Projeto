@@ -20,16 +20,16 @@ print('Uma empresa de telecomunicações está com problemas de desligamentos de
 
 
 print("Menu de Análises:")
-print('1 - Porcentagem de clientes que cancelaram e permaneceram.', end ="\n")
-print('2 - Total de receita gerada pelos clientes que continuam com contrato ativo.' , end ="\n")
-print('3 - Entre os clientes que cancelaram, quantos homens e quantas mulheres.',end ="\n")
-print('4 - Clientes com contrato ativo há mais tempo e clientes que cancelaram o contrato após o maior tempo de fidelidade.', end ="\n")
-print('5 - Tipo de contrato mais comum entre os clientes ativos.', end ="\n")
-print('6 - Método de pagamento preferido dos clientes ativos.', end ="\n")
-print('7 - Porcentagem de uso dos serviços adicionais.',end ="\n")
-print('8 - Quantidade de planos de internet dos clientes ativos.', end ="\n")
-print('9 - Criar um novo dataset baseado em serviços oferecidos pela empresa.', end ="\n")
-print('10 - Média mensal paga por todos os clientes que já tiveram contrato com a empresa.', end ="\n")
+print('1 - Porcentagem de clientes que cancelaram e permaneceram.')
+print('2 - Total de receita gerada pelos clientes que continuam com contrato ativo.')
+print('3 - Entre os clientes que cancelaram, quantos homens e quantas mulheres.')
+print('4 - Clientes com contrato ativo há mais tempo e clientes que cancelaram o contrato após o maior tempo de fidelidade.')
+print('5 - Tipo de contrato mais comum entre os clientes ativos.')
+print('6 - Método de pagamento preferido dos clientes ativos.')
+print('7 - Porcentagem de uso dos serviços adicionais.')
+print('8 - Quantidade de planos de internet dos clientes ativos.')
+print('9 - Criar um novo dataset baseado em serviços oferecidos pela empresa.')
+print('10 - Média mensal paga por todos os clientes que já tiveram contrato com a empresa.')
 print('11 - Finaliza.')
 
 i = 0
