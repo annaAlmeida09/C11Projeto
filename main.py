@@ -1,7 +1,7 @@
 import pandas as pd
 import importlib
 
-df = pd.read_csv('.\datasets\Telecom Customers Churn.csv')  # ajuste conforme o nome correto
+df = pd.read_csv('.\datasets\Telecom Customers Churn.csv') 
 
 analises = {
     '1': 'analise1',
@@ -33,10 +33,11 @@ print('10 - Média mensal paga por todos os clientes que já tiveram contrato co
 print('0 - Finaliza.')
 
 while(True):
-    escolha = input("Escolha uma análise (1 a 10): ")
+    escolha = input("Escolha uma análise (de 1 a 10): ")
 
     if escolha == '0':
         break
+
     if escolha in analises:
         nome_modulo = f"analises.{analises[escolha]}"
         modulo = importlib.import_module(nome_modulo)
