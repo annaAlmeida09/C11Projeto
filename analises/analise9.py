@@ -22,14 +22,14 @@ def executar(df):
 
     print('Escolha uma opção para filtrar clientes com valor "Yes" e salvá-los no arquivo "clientes.csv"')
     for chave, valor in opcoes.items():
-        print(f'{chave} - {valor} = Yes')
+        print(f'{chave} - {valor}')
 
     escolha = input("Digite o número da opção desejada: ")
 
     if escolha in opcoes:
         coluna = opcoes[escolha]
         clientes_filtrados = df[df[coluna] == 'Yes']
-        clientes_filtrados.to_csv('.\\datasets\\clientes.csv', index=False)
+        clientes_filtrados.to_csv('.\datasets\clientes.csv', index=False)
         print("Arquivo 'clientes.csv' salvo com sucesso!")
     else:
         print("Opção inválida. Tente novamente.")
