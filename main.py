@@ -32,14 +32,11 @@ print('9 - Criar um novo dataset baseado em serviços oferecidos pela empresa.')
 print('10 - Média mensal paga por todos os clientes que já tiveram contrato com a empresa.')
 print('11 - Finaliza.')
 
-i = 0
-
-while(i == 0):
+while(True):
     escolha = input("Escolha uma análise (1 a 10): ")
 
     if escolha == '11':
-        i = -1
-   
+        break
     if escolha in analises:
         nome_modulo = f"analises.{analises[escolha]}"
         modulo = importlib.import_module(nome_modulo)
