@@ -139,4 +139,7 @@ clientes_multiplas_linhas = df[df['MultipleLines'] == 'Yes']
 clientes_multiplas_linhas.to_csv('.\datasets\clientesMultiplasLinhas.csv', index=False)
 print("Arquivo 'clientesMultiplasLinhas.csv' salvo com sucesso!")
 
-#10
+#10 Qual é a média mensal paga por todos os clientes que já tiveram contrato com a empresa?
+
+media_mensal = df['MonthlyCharges'].mean()
+print(f'Média mensal paga por todos os clientes: R$ {media_mensal:.2f}')
